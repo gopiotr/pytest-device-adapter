@@ -49,6 +49,7 @@ class DeviceAdapterConfig:
             baud=config.option.device_serial_baud,
             runner=config.option.runner,
             id=config.option.device_id,
+            product=config.option.device_product,
             serial_pty=config.option.device_serial_pty,
             west_flash_extra_args=west_flash_extra_args,
             flashing_timeout=config.option.flashing_timeout,

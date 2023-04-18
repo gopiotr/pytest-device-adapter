@@ -79,6 +79,10 @@ def pytest_addoption(parser: pytest.Parser):
         help='ID of connected hardware device (for example 000682459367)'
     )
     device_adapter_group.addoption(
+        '--device-product',
+        help='Product name of connected hardware device (for example "STM32 STLink")'
+    )
+    device_adapter_group.addoption(
         '--device-serial-pty',
         metavar='PATH',
         help='Script for controlling pseudoterminal. '
